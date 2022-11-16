@@ -17,26 +17,33 @@ h5,
 h6 {
   margin: 0px;
 }
+
 ul,
 ol {
   margin: 0px;
   padding-left: 0px;
 }
+
 button {
   cursor: pointer;
 }
+
 img {
   display: block;
 }
+
 body {
   font-family: var(--main-font);
 }
+
 /* Universal classes */
+
 .container {
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
 }
+
 .link {
   text-decoration: none;
 }
@@ -53,27 +60,32 @@ body {
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
+
 .btn:hover,
 .btn:focus {
   background-color: var(--accent-color);
 }
+
 .pre-title {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   text-transform: uppercase;
 }
+
 .title {
   font-family: 'Raleway', sans-serif;
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
 }
+
 .after-title {
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -84,7 +96,9 @@ body {
   white-space: nowrap;
   overflow: hidden;
 }
+
 /* -----------HEADER----------- */
+
 header {
   background-color: gray;
 }
